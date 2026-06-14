@@ -1,0 +1,9 @@
+{
+  "name": "suggestapi-algolia-instantsearch-adapter-example",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "algoliasearch": "^5.26.0",
+    "instantsearch.js": "^4.78.0"
+  }
+}

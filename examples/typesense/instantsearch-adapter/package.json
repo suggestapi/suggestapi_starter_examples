@@ -1,0 +1,9 @@
+{
+  "name": "suggestapi-typesense-instantsearch-adapter-example",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "instantsearch.js": "^4.78.0",
+    "typesense-instantsearch-adapter": "^2.9.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "suggestapi-meilisearch-instantsearch-adapter-example",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@meilisearch/instant-meilisearch": "^0.20.1",
+    "instantsearch.js": "^4.78.0"
+  }
+}
