@@ -3,6 +3,7 @@
 Use this example when your frontend uses InstantSearch UI components with a Meilisearch-compatible adapter layer.
 
 The browser sends search requests to SuggestAPI. The actual provider choice is managed in SuggestAPI configuration.
+Only the SuggestAPI key is used in the client. Any provider-side credential stays behind SuggestAPI.
 
 Files:
 

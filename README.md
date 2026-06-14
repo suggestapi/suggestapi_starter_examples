@@ -18,6 +18,12 @@ This repository is intentionally provider-focused so we can link directly to exa
 3. Open the provider folder that matches your current search stack.
 4. Run the `curl` or JavaScript example and adjust the payload for your schema.
 
+## Authentication
+
+- Requests to `api.suggestapi.com` use a SuggestAPI API key.
+- Client examples in this repo send the SuggestAPI key only.
+- Provider credentials, when required, are managed behind SuggestAPI and are not sent from the client request.
+
 ## Repository layout
 
 - `providers/`: public docs for each supported provider path
@@ -41,6 +47,7 @@ This repository is intentionally provider-focused so we can link directly to exa
 
 - Examples use placeholder URLs, keys, and index names only.
 - Search requests go to SuggestAPI only. Provider selection is managed in SuggestAPI configuration after the request is received.
+- Provider API keys, if a backend provider requires them, stay server-side behind SuggestAPI.
 - Responses and field names are intentionally generic.
 - Provider docs focus on request shape and migration guidance, not private implementation details.
 
