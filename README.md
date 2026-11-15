@@ -42,6 +42,9 @@ This repository is intentionally provider-focused so we can link directly to exa
 - [Meilisearch](providers/meilisearch.md)
 - [SeekStorm](providers/seekstorm.md)
 - [Vespa](providers/vespa.md)
+- [Searchspring (legacy)](providers/searchspring.md)
+- [Athos Commerce](providers/athos-commerce.md)
+- [Upstash Search](providers/upstash-search.md)
 
 ## Example conventions
 
