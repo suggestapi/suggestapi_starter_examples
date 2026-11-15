@@ -68,3 +68,9 @@ Phase 2 examples:
 - Meilisearch
 - SeekStorm
 - Vespa
+
+Phase 3 examples:
+
+- Searchspring
+- Athos Commerce
+- Upstash Search
